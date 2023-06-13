@@ -1,0 +1,64 @@
+body{
+  background-color: #483D8B;
+  color: #ffffff;
+  font: arial;
+  font-size: 15px;
+}
+
+.center {
+  display: flex; /*Define o <div> como um contêiner flexível, permitindo que os elementos internos sejam posicionados e alinhados de forma flexível.*/
+  flex-direction: column; /* Define a direção do fluxo dos elementos dentro do contêiner como uma coluna*/
+  justify-content: center; /*Centraliza os elementos horizontalmente*/
+  align-items: center; /*Centraliza os elementos verticalmente*/
+  height: 100vh; /* Ajuste conforme necessário */
+}
+
+.button {
+  position: relative;/*A posição fica relativa ao conteiner pai*/
+  top: 10px;
+  height: 30px;
+  width: 255px;
+  color: #ffffff;
+  font-size: 15px;
+  border: transparent;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: #836FFF;
+}
+
+::-webkit-input-placeholder { /*Mudar a cor do placeholder*/
+  color: #836FFF;
+}
+
+.box {
+  height: 25px;
+  width: 255px;
+  font-size: 15px;
+  border: transparent;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.title {
+  position: relative;
+  bottom: 10px;
+  font-size: 40px;
+}
+
+.loginLinks {
+  position: relative;
+  top: 20px;
+}
+
+.loginLinks a {/*cor das letras dos links*/
+  color: #ffffff;
+}
+
+.square {
+  position: absolute;/*A posição fica relativa a página em si*/
+  width: 310px;
+  height: 360px;
+  border: 3px solid;
+  border-color: #ffffff;
+  background-color: transparent;
+}
